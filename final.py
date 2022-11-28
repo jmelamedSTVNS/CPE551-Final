@@ -55,5 +55,4 @@ class Hand:
         if self.is_empty():
             return s + " is empty"
         s += " contains \n" + Deck.__str__(self)
-        return s
-        
+        return s        
